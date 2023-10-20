@@ -1,11 +1,10 @@
 {
   "name": "version",
   "version": "1.0.0",
-  "description": "Application that tells jokes.",
+  "description": "example",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-    
   },
   "repository": {
     "type": "git",
@@ -23,6 +22,8 @@
     "url": "https://github.com/bjarte1234567/environment/issues"
   },
   "homepage": "https://github.com/bjarte1234567/environment#readme",
-  "description": "example",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
 }
