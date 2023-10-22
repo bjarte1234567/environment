@@ -1,0 +1,36 @@
+{
+  "name": "version",
+  "version": "1.2.0",
+  "description": "example",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/js/joker.test.js",
+    "format": "prettier -w src/**/*.js",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --cache --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjarte1234567/environment.git"
+  },
+  "keywords": [
+    "css",
+    "e-coomerce",
+    "portfolio",
+    "website"
+  ],
+  "author": "John Smith john@smith.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjarte1234567/environment/issues"
+  },
+  "homepage": "https://github.com/bjarte1234567/environment#readme",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
+  }
+}
